@@ -73,14 +73,14 @@ install_easytier() {
     DEST_DIR="/root/easytier"
     FILE1="easytier-core"
     FILE2="easytier-cli"
-    #URL_X86="https://github.com/EasyTier/EasyTier/releases/download/v1.1.0/easytier-x86_64-unknown-linux-musl-v1.1.0.zip"
-    #URL_ARM_SOFT="https://github.com/EasyTier/EasyTier/releases/download/v1.1.0/easytier-armv7-unknown-linux-musleabi-v1.1.0.zip"              
-    #URL_ARM_HARD="https://github.com/EasyTier/EasyTier/releases/download/v1.1.0/easytier-armv7-unknown-linux-musleabihf-v1.1.0.zip"
+    #URL_X86="https://github.com/EasyTier/EasyTier/releases/download/v2.0.0/easytier-linux-x86_64-v2.0.0.zip"
+    #URL_ARM_SOFT="https://github.com/EasyTier/EasyTier/releases/download/v2.0.0/easytier-armv7-unknown-linux-musleabi-v1.1.0.zip"              
+    #URL_ARM_HARD="https://github.com/EasyTier/EasyTier/releases/download/v2.0.0/easytier-armv7-unknown-linux-musleabihf-v1.1.0.zip"
 
     #New Version
-    URL_X86="https://github.com/Musixal/Easy-Mesh/raw/main/core/v1.2.0/easytier-linux-x86_64/"
-    URL_ARM_SOFT="https://github.com/Musixal/Easy-Mesh/raw/main/core/v1.2.0/easytier-linux-armv7/"              
-    URL_ARM_HARD="https://github.com/Musixal/Easy-Mesh/raw/main/core/v1.2.0/easytier-linux-armv7hf/"
+    URL_X86="https://github.com/netsupcloud/Easy-Mesh/raw/main/core/v2.0.0/easytier-linux-x86_64/"
+    #URL_ARM_SOFT="https://github.com/netsupcloud/Easy-Mesh/raw/main/core/v2.0.0/easytier-linux-armv7/"              
+    #URL_ARM_HARD="https://github.com/netsupcloud/Easy-Mesh/raw/main/core/v2.2.0/easytier-linux-armv7hf/"
     
     # Check if the directory exists
     if [ -d "$DEST_DIR" ]; then    
